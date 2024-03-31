@@ -20,13 +20,15 @@
 			"extensions": [
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
-				"wayou.vscode-todo-highlight"
+				"wayou.vscode-todo-highlight",
+				"hiteshchoudharycode.chai-theme"
 			],
 			"settings": {
-				"editor.fontSize": 18,
-				"terminal.integrated.fontSize": 20,
-				"editor.wordWrap": "on"
-			}
+				"editor.fontFamily": "Mono Lisa",
+    			"editor.fontSize": 16,
+    			"terminal.integrated.fontSize": 16,
+    			"window.zoomLevel": 1,
+    			"editor.wordWrap": "on"
 			
 		}
 		
@@ -34,4 +36,5 @@
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
+}
 }
