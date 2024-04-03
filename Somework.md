@@ -18,4 +18,14 @@
 - Needs to learn more about appendChild, createTextNode, outerHTML
 - how to do Optimization in code
 
+## In 08_Events / one.html
+
+- type, timestamp, preventDefault
+- target, toElement, srcElement, currentTarget,
+- clientX, clientY, screenX, screenY
+- altKey, ctrlKey, shiftkey, keyCode
+- eventPropagation() => e.stopPropagation
+- Event Propagation true/false - event Public, event capture || bubbings up inside to outside
+- by dafault event Propagation is false (event Public or bubbling Up / child to Parent)
+
 
