@@ -11,7 +11,8 @@
 - Inside object [myKey]: "keyOne"
 - In console.log() the result will display like [Symbol(key1): "keyOne"]
 
-
+## In 02_basics / 04_objects.js
+- learn about singleton that is objects created through constructor . Object.create, Object.assign etc...
 ## In 06_dom / three.html
 - how to create Element by writing code and wraping it up in the function and also writing loop
 ## In 06_dom / four.html
