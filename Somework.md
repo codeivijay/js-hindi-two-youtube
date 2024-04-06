@@ -13,6 +13,13 @@
 
 ## In 02_basics / 04_objects.js
 - learn about singleton that is objects created through constructor . Object.create, Object.assign etc...
+
+## In 03_basics / iife.js
+
+- // ()() - first parentheses where we write the defination or code and  second one is for exectution
+
+- // why we writ iife - we use it beacuse sometimes we get into problem due to global scope so in order to avoid that we have to use iife, which is (IMMEDIATELY INVOKED FUNCTION EXPRESSION)
+- also remember about the semi-colon (;)
 ## In 06_dom / three.html
 - how to create Element by writing code and wraping it up in the function and also writing loop
 ## In 06_dom / four.html
