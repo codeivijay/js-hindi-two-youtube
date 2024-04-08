@@ -21,7 +21,8 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"hiteshchoudharycode.chai-theme"
+				"hiteshchoudharycode.chai-theme",
+				"dsznajder.es7-react-js-snippets"
 			],
 			"settings": {
 				"editor.fontFamily": "Mono Lisa",
