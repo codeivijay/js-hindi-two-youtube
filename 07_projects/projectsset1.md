@@ -70,3 +70,20 @@ form.addEventListener('submit', (e) => {
 
 
 ```
+
+# Solution Code
+## project 3
+
+```javascript
+const clock = document.querySelector('#clock');
+
+//console.log(date.toLocaleDateString());
+
+setInterval(function () {
+  let date = new Date();
+  //console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+
+```
