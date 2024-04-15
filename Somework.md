@@ -26,6 +26,11 @@
 - Needs to learn more about appendChild, createTextNode, outerHTML
 - how to do Optimization in code
 
+
+## In 07_Projects in Project 4 
+- Practice it more to Understand the concept of Logic Design
+
+
 ## In 08_Events / one.html
 
 - type, timestamp, preventDefault
