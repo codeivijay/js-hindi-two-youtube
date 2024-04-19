@@ -26,7 +26,20 @@
     <button id="stop">Stop</button>
   </body>
   <script>
+
+    function changeTime() {
+      let date = new Date()
+      document.querySelector("#clock").innerHTML = date.toLocaleTimeString()
+    }
    
+    document.querySelector("#start").addEventListener('click', () => {
+      intervalClr = setInterval(changeTime, 1000);
+    })
+
+    document.querySelector("#stop").addEventListener('click', () => {
+      clearInterval(intervalClr);
+      console.log(intervalClr)
+    })
 
 
 
