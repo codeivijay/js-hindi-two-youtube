@@ -1,6 +1,6 @@
 
 # Source Code
-## Project 5 code // keybord letter press 
+## Project 5 solution code // keybord letter press 
 
 ```javascript
 const insert = document.getElementById('insert');
@@ -28,7 +28,7 @@ window.addEventListener('keydown', (e) => {
 
 ```
 # Source Code  
-## Project 6 code // unlimited background-changer
+## Project 6 solution code // unlimited background-changer
 
 ```javascript
 
