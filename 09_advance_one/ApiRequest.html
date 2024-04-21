@@ -13,7 +13,21 @@
     const requestUrl = 'https://api.github.com/users/codeivijay'
     const xhr = new XMLHttpRequest()
     xhr.open('GET', requestUrl)
-    console.log("here")
-    xhr.send()
+    xhr.onreadystatechange = function() {
+        console.log(xhr.readyState);
+        if(xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText)
+            console.log(data)
+            console.log(data.followers);
+        }
+    }
+    xhr.send();
+
+    const button = document.createElement('button')
+    button.style.backgroundColor = "red"
+    button.style.padding = '40px'
+    button.style.fontSize = "25px"
+    document.body.appendChild(button).innerHTML = "hello button"
+    
 </script>
 </html>
