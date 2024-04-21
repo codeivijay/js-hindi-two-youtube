@@ -41,4 +41,8 @@
 - Event Propagation true/false - event Public, event capture || bubbings up inside to outside
 - by dafault event Propagation is false (event Public or bubbling Up / child to Parent)
 
+## In 09_advance_one
+
+- make a button with click event that will bring profile pic and also bring followers and show them in the body 
+
 
