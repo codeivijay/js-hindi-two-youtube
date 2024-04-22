@@ -37,21 +37,16 @@ function User(username, loginCount, isLoggedIn) {
     this.loginCount = loginCount
     this.isLoggedIn = isLoggedIn
 
-    this.gretting = function() {
+   /*  this.gretting = function() {
         console.log(`welcome ${this.username}`)
     }
-    
-    return this
+     */
+   
 }
 
 const userOne = new User("Vijay", 12, true)
 const userTwo = new User("Chai aur Code", 18, false)
 
 console.log(userOne.constructor)
-//console.log(userTwo)
+console.log(userTwo)
 
-// new - keyword is constructor function
-
-/* 
-
- */
